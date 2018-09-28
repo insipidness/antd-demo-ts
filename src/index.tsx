@@ -1,6 +1,6 @@
 import dva from 'dva';
 import createHistory from 'history/createHashHistory';
-import './index.less';
+import './index.css';
 
 const app = dva({
     history: createHistory(),
